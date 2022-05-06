@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV- David Garcia Rubio</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <br>
+    <div class="flex">
+        <span class="en">English</span>
+        <input type="checkbox" class="check" onclick="idioma('en')" checked>
+        <span class="es">Spanish</span>
+    </div>
+    <br>
+    <fieldset>
+        <div id="header" class="row">
+            <div class="column-2">
+                <h3 style="text-align: center; color: red;">¿Quien soy?</h3><br>
+                <p>Hola soy David Garcia Rubio, nací el 20/06/2004 y siempre me ha gustado la informática y ese es el motivo por el cual he estudiado <a href="https://ca.wikipedia.org/wiki/SMX">SMX</a>, intentaré hacer la <a href="https://www.educaweb.com/contenidos/educativos/formacion-profesional-fp/fp-dual/">DUAL</a>                    si es posible en grado superior ya que es una cosa que me gusta, en si me gusta más <a href="https://www.fp-informatica.com/daw-desarrollo-de-aplicaciones-web/">DAW</a> pero creo que lo mejor para mi futuro es hacer también <a href="https://fp.institutmvm.cat/asix/">ASIX</a>.</p>
+                <p>Vivo en <a href="https://www.google.es/maps/place/Can+Serra/@41.3670311,2.1009524,16.18z/data=!4m5!3m4!1s0x12a4991c3017779b:0x82f9ff1168f01a29!8m2!3d41.367711!4d2.1035929?hl=es">Barcelona, L'Hospitalet de Llobregat (L'H)</a></p>
+                <p>Me enctanta jugar a fútbol y de vez en cuando jugar a videojuegos.</p>
+            </div>
+            <div class="column-3">
+                <iframe class="flex" src="https://youtu.be/93eaR6Z53bE" frameborder="0"></iframe>
+                <p><a href="https://www.youtube.com/embed/93eaR6Z53bE">Link video por si no se ve</a></p>
+            </div>
+        </div>
+    </fieldset>
+    <div class="row fondo main">
+        <div class="column-3">
+            <h3 class="flex">Estudios</h3>
+            <p>Yo toda mi infancia estuve en el colegio <a href="https://agora.xtec.cat/escolaalegre/">Alegre</a>, desde P1 hasta 4º<a href="https://es.wikipedia.org/wiki/Educación_Secundaria_Obligatoria">ESO</a>, en ese colegio he sido muy feliz y aprendí
+                muchas cosas.</p>
+            <p>Después me tube que ir a causa de que 4º<a href="https://es.wikipedia.org/wiki/Educación_Secundaria_Obligatoria">ESO</a> era a lo más que podía llegar en ese colegio, a mi siempre me ha gustado la informática, entonces me inscribí a <a href="https://joan23.fje.edu/ca">Joan XXIII</a>,
+                SMX, donde me cogieron. Actualmente llevo estudiando 2 años, espero que pueda llegar a pasar a grado superior y poder dar lo mejor de mi ya que es una cosa que me encanta y se perfectamente que si lo hago me va ayudar mucho en mi futuro.</p>
+        </div>
+        <div class="column-3">
+            <h3 class="flex">Prácticas realizadas</h3>
+            <p>Yo fui de los primeros de mi clase en ir a las prácticas (Junio de 2021) y me tocó ir al colegio Colonia Guell que estaba bastante alejado de donde vivo, pero ese tampoco era problema así que acabé yendo hasta finales de año (Diciembre 2021),
+                en esas prácticas aprendí una cosa que en otras mejores empresas no hubiese aprendido, y es apañarmelas yo solo ya que allí no había nadie que hubiera estudiado informática, entonces todos los problemas que tenían me tenía que apañar,
+                pero yo siempre me llevo lo bueno de las cosas.</p>
+            <p><a href="https://www.google.es/maps/place/Escola+Colònia+Güell/@41.3640938,2.0256294,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOaT94rv6-ehjp9jWzY0SOXOS8q9voEAtMrJC6N!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOaT94rv6-ehjp9jWzY0SOXOS8q9voEAtMrJC6N%3Dw203-h152-k-no!7i4000!8i3000!4m13!1m7!3m6!1s0x12a49b9ff09e865d:0x9ecb3fc932a01082!2s08690+Col.+Güell,+Barcelona!3b1!8m2!3d41.3627272!4d2.0279312!3m4!1s0x12a49b0ac48253fb:0x3a5664370cc7f7ca!8m2!3d41.3641286!4d2.0256221?hl=es">Escola Colonia Güell</a></p>
+        </div>
+        <div class="column-3">
+            <h3 class="flex">Habilidades</h3>
+            <p><b>Lenguajes de Programación:</b>En SMX2, es cuando hemos aprendido un poco de estos tres Lenguajes:</p>
+            <select style="color: rgb(255, 255, 255); background-color: black;" id="Lenguaje">
+                <option value="JavaScript">JavaScript</option>
+                <option value="CSS">CSS</option>
+                <option value="HTML">HTML</option>
+            </select>
+            <input style="color: rgb(255, 255, 255); background-color: black;" type="submit" value="calcular" onclick="Porcentaje('es')">
+            <p id="resultado">He aprendido a usar este lenguaje aproximadamente un XX%</p>
+            <p>Yo en SMX lo que he aprendido es a manejar perfectamente el Windows y además también he aprendido a usar otros <a href="https://es.wikipedia.org/wiki/Sistema_operativo">Sistemas Operativos (SO)</a> como por ejemplo Ubuntu, Linux Mint, Zentyal...</p>
+            <p>He aprendido desarrollo de páginas web, a crear servidores (Proxy, DNS, DHCP, SSH...), configuración de impresoras, entre muchas más cosas.</p>
+            <br><br>
+        </div>
+        <div class="row">
+            <div class="column-4 padding-m">
+                <a href="https://es.wikipedia.org/wiki/Microsoft_Windows" target="_blank"><img src="../img/downloadwin.png" alt="Windows-Logo"></a>
+            </div>
+            <div class="column-4 padding-m">
+                <a href="https://es.wikipedia.org/wiki/Ubuntu" target="_blank"><img src="../img/downloadubu.png" alt="Ubuntu-Logo"></a>
+            </div>
+            <div class="column-4 padding-m">
+                <a href="https://es.wikipedia.org/wiki/GNU/Linux" target="_blank"><img src="../img/downloadlin.jpg" alt="Linux-Logo"></a>
+            </div>
+            <div class="column-4 padding-m">
+                <a href="https://es.wikipedia.org/wiki/Zentyal" target="_blank"><img src="../img/zentyal.webp" alt="Zentyal-Logo"></a>
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <div id="footer">
+            <p><a href="../CV  David Garcia Rubio-español.pdf" download target="_blank">Haga click aqui</a> para descargar el documento en Español</p>
+            <p><a href="../CV  David Garcia Rubio-ingles.pdf" download target="_blank">Haga click aqui</a> para descargar el documento en Inglés</p>
+            <p><a href="" download target="_blank">Haga click aqui</a> para descargar el Codigo QR de este documento</p>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
